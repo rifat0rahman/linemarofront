@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.chat{
+    margin-top: 20px;
+    width:800px;
+    margin: auto;
+    
+}
+.container{
+    display: flex;
+    margin: 0px;
+    height:100vh;
+}
+.sidebar{
+    flex: 0.3;
+    border: 1px solid;
+    margin-right: 10px;
+}
+.body{
+    flex: 0.7;
+    border: 1px solid;
+    
+}

@@ -1,0 +1,18 @@
+.nav{
+    position: absolute;
+    left:30px;
+    margin-top:10px;
+}
+
+.navlinks > a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 4px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+}

@@ -1,0 +1,97 @@
+.home{
+    margin: auto !important;
+    width: 500px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin:40px;
+    margin-bottom: 50px;
+}
+
+.search > input{
+    width: 300px;
+    border-right: 5px solid white !important;
+    padding: 10px;
+    border: 2px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.search > input:focus{
+    outline: 0;
+}
+
+.search > button{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.friends{
+    display:flex;
+    justify-content: center;
+}
+.user-card{
+    background-color: white;
+    width:400px;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 30px;
+}
+.user-card img{
+    width: 40px;
+    border-radius:23px;
+    -webkit-border-radius:23px;
+    -moz-border-radius:23px;
+    -ms-border-radius:23px;
+    -o-border-radius:23px;
+    border: 1px solid rgb(129, 129, 129);
+    margin: 5px;
+}
+.user-card .user{
+    padding: 5px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 16px;
+    color: black;
+}
+.user-card > .chat-button{
+    position: absolute;
+    right: 0px;
+    top: 14px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 14px;
+}
+.head-line{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px !important;
+    font-size: 20px;
+}

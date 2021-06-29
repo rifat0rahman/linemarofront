@@ -1,0 +1,76 @@
+.sidebar{
+    overflow-y: auto;
+}
+.find{
+    text-align: center;
+    position: fixed;
+    
+}
+.find > input{
+    width:136px;
+    border-right: 5px solid white !important;
+    padding: 10px;
+    border: 2px solid white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.find > input:focus{
+    outline: 0;
+}
+
+.find > button{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid rgb(250, 250, 250);
+    background-color: white;
+    cursor: pointer;
+}
+.after-Search{
+    position: relative;
+    top: 50px;
+}
+.conv{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.chat-card{
+    margin-top:20px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.chat-card img{
+    width: 30px;
+    border-radius:23px;
+    -webkit-border-radius:23px;
+    -moz-border-radius:23px;
+    -ms-border-radius:23px;
+    -o-border-radius:23px;
+    border: 1px solid rgb(129, 129, 129);
+    margin: 2px;
+}
+.chat-card .user{
+    padding: 5px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    color: black;
+}
+
+.chat-card:hover{
+    font-size: 15px;
+    background: rgb(255, 253, 253);
+    transition: 100ms ease-in;
+    -webkit-transition: 100ms ease-out;
+    -moz-transition: 100ms ease-out;
+    -ms-transition: 100ms ease-out;
+    -o-transition: 100ms ease-out;
+}

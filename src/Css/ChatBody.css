@@ -1,0 +1,105 @@
+.body-card{
+    background-color: white;
+    position: relative;
+}
+
+.body-card img{
+    width: 30px;
+    border-radius:23px;
+    -webkit-border-radius:23px;
+    -moz-border-radius:23px;
+    -ms-border-radius:23px;
+    -o-border-radius:23px;
+    border: 1px solid rgb(129, 129, 129);
+    margin: 2px;
+    margin-left: 30px;
+}
+.body-card .user{
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    color: black;
+}
+.joined{
+    padding: 5px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    color: black;
+}
+
+.sending-msg{
+    position: fixed;
+    bottom:10px;
+}
+
+.send-msg > input{
+    width: 450px;
+    border-right: 5px solid white !important;
+    padding: 10px;
+    border: 2px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px 0px 0px 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    -ms-border-radius: 10px 0px 0px 10px;
+    -o-border-radius: 10px 0px 0px 10px;
+}
+.send-msg > input:focus{
+    outline: 0;
+}
+
+.send-msg > button{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid rgb(250, 250, 250);
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    -moz-border-radius: 0px 10px 10px 0px;
+    -ms-border-radius: 0px 10px 10px 0px;
+    -o-border-radius: 0px 10px 10px 0px;
+}
+.body-msg{
+    
+    overflow-y: auto;
+    height: 92vh;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    
+}
+.msg-container{
+    margin: 20px 10px 50px 10px;
+    max-width: 250px;
+}
+.msg{
+    border: 1px solid white;
+    word-break: break-all;
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    background: rgb(18, 51, 33);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 4px;
+    position: relative;
+    left: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+.author{
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
